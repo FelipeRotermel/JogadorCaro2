@@ -1,4 +1,4 @@
 <template>
-  <main>Bem-vindo</main>
+  <main>Jogadores</main>
   <footer>Footer</footer>
 </template>
