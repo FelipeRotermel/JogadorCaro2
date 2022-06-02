@@ -1,4 +1,3 @@
 <template>
   <main>Bem-vindo</main>
-  <footer>Footer</footer>
 </template>
