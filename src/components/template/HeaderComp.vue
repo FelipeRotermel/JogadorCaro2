@@ -1,11 +1,17 @@
 <template>
   <header class="menu-superior">
     <div class="menu-esquerdo">
-      <span> <RouterLink to="/">Home</RouterLink> </span>
+      <span>
+        <RouterLink class="botao" to="/">Home</RouterLink>
+      </span>
       <span>|</span>
-      <span> <RouterLink to="/times">Times</RouterLink> </span>
+      <span>
+        <RouterLink class="botao" to="/times">Times</RouterLink>
+      </span>
       <span>|</span>
-      <span> <RouterLink to="/jogadores">Jogadores</RouterLink> </span>
+      <span>
+        <RouterLink class="botao" to="/jogadores">Jogadores</RouterLink>
+      </span>
     </div>
     <div class="menu-direito">
       <span>Sair</span>
@@ -20,5 +26,10 @@ header span {
 
 .menu-superior {
   justify-content: space-between;
+}
+
+.menu-esquerdo .botao {
+  text-decoration: none;
+  color: white;
 }
 </style>
