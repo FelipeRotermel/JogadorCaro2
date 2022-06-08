@@ -13,9 +13,9 @@ import FooterComp from "@/components/template/FooterComp.vue";
 
 <style>
 @import "@/assets/base.css";
+@import "@/assets/style.css";
 
 #app {
-  max-width: 1280px;
   margin: 0 auto;
   font-weight: normal;
   height: 100vh;

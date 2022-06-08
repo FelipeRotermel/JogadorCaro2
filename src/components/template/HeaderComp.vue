@@ -26,6 +26,8 @@ header span {
 
 .menu-superior {
   justify-content: space-between;
+  text-decoration: none;
+  color: white;
 }
 
 .menu-esquerdo .botao {
